@@ -1,0 +1,51 @@
+# VCS
+.git
+.gitignore
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+*.iml
+
+# Python cache & tooling
+__pycache__
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.egg-info
+.eggs
+build
+dist
+pip-wheel-metadata
+.pytest_cache
+.coverage*
+htmlcov
+.tox
+.mypy_cache
+.ruff_cache
+.cache
+
+# Virtual envs
+.venv
+venv
+ENV
+env
+.pyenv
+.python-version
+
+# Env & secrets
+.env
+.env.*
+*.secret
+*.pem
+*.key
+*.p12
+*.json.secret
+
+# Local data
+data
+archives
+*.zip
